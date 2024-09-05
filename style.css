@@ -54,6 +54,9 @@ header {
     color: var(--color);
 }
 
+nav ul li .active{
+    color: var(--main-color);
+}
 
 .logo {
     color: var(--main-color);
@@ -499,7 +502,7 @@ header i:hover {
         position: absolute;
         z-index: 10;
         right: 0;
-        bottom: -29rem;
+        bottom: -32rem;
         transition: top 0.5s ease;
     }
 
@@ -507,12 +510,16 @@ header i:hover {
         flex-direction: column;
         background-color: var(--second-bg-color);
         width: 100%;
-        padding: 45px;
+        padding: 40px;
         display: none;
     }
 
     .nav-links li {
         padding: 15.5px 70px;
+    }
+    ul li a:hover{
+        background-color: var(--main-color);
+        color: var(--color);
     }
 
     .nav-links.active {
